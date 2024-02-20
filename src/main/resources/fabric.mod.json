@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nooutline",
+  "version": "${version}",
+  "name": "NoOutline",
+  "description": "removes the block outline",
+  "authors": [
+    "Taleuxss"
+  ],
+  "contact": {
+    "repo": "https://github.com/Taleuxss/NoOutline"
+  },
+  "license": "LGPL-3.0-or-later",
+  "environment": "client",
+  "mixins": [
+    "nooutline.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.15"
+  }
+}
